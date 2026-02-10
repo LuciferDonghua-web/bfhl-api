@@ -146,8 +146,13 @@ app.post("/bfhl", async (req, res) => {
 
 // ----------- Server ---------------------------------->
 
-app.listen(process.env.PORT, () => {
-  console.log(`Listening to http://localhost:${process.env.PORT}`);
-});
+// app.listen(process.env.PORT, () => {
+//   console.log(`Listening to http://localhost:${process.env.PORT}`);
+// });
+
+// ----> vercel ----------------------
+
+export default app;
+
 
 // ------------------------------------------------------>
